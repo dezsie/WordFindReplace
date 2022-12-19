@@ -18,3 +18,11 @@ options:
   -l LANGUAGE, --language LANGUAGE
                         Enter the language you want to change to, US or UK.
 ```
+
+The Lorem.docx file is used as a test file. You should get the following:
+```
+python3 translate_docx.py -i Lorem.docx -l UK
+The word Analyze was found and replaced 1 times.
+The word Analyzing was found and replaced 1 times.
+The word analyze was found and replaced 3 times.
+```
